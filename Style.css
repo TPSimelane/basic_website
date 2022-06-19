@@ -1,33 +1,90 @@
 
 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
     display: flex;
     align-items: center;
     text-align: center;
-    /*padding: 1em;
+    padding: 1em;
     margin: 1em;
-    /*background-color: brown;*/
+    align-content: center;
+    border-radius: 2.25em;
+     /*background-color: blue;*/
 } 
-body{
-    background-color: rgb(213, 213, 213);
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    font-variant: small-caps;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 0.1em;
+    margin: 0em;
+    /*background-color: brown;*/
 }
+h3{
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 1em;
+    margin: 1em;
+    /*background-color: yellow;*/
+}
+body{
+    background-color: rgb(192, 179, 168);
+    align-content: center;
+    padding: 4em;
+}
+
+.container{
+    padding: 10em;
+    border: 2px;
+    margin:auto
+}
+
 table, th, td{
     border:1px solid black;
+    margin-left : 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
   }
 img {
+    display: flex;
     margin: auto;
     display:block;
     align-content: center;
-    height: 3OOpx;
-    width: 300px;
+    padding: 1em;
+    /*height: 80%;
+    width: 80%;*/
     border-radius: 2.25em;
 }
+
+p{
+ text-justify: auto;
+ text-align: justify;
+ padding: 1em;
+}
+p2{
+ text-justify: auto;
+ text-align: justify;
+ padding:2em;
+ /*margin-left: 2e:m;
+ margin-right: 2em;*/
+}
+
 .place_1{
-flex: 1;
+ flex: 1;
  border: 2px;
  padding: 1em;
  margin: 1em;
  border-radius: 1.25em;
- background-color: rgb(200, 200, 200);
+ background-color: rgba(162, 249, 255, 0.226);
 }
 .place_2{
  flex: 1;
@@ -35,7 +92,7 @@ flex: 1;
  padding: 1em;
  margin: 1em;
  border-radius: 1.25em;
- background-color: rgb(200, 200, 200);
+ background-color: rgba(162, 249, 255, 0.226);
 }
 .place_3{
  flex: 1;
@@ -43,8 +100,10 @@ flex: 1;
  padding: 1em;
  margin: 1em;
  border-radius: 1.25em;
- background-color: rgb(200, 200, 200);
+background-color: rgba(162, 249, 255, 0.226);
 }
+
+
 .footer{
  border: 2px;
  padding: 1em;
@@ -52,8 +111,26 @@ flex: 1;
  border-radius: 1.25em;
  background-color: rgb(207, 207, 207);
 }
-@media (min-width: 768px){
+@media (min-width: 600px){
  .places{
  display: flex;
 }
+
+/*.city{
+    flex: 1;
+    justify-content: flex-end;
+    padding: 0em;
+    align-content: center;
+}*/}
+@media (min-width:800px){
+ .places_4{
+ display: flex;
+}
+/*.place_4{
+ flex: 1;
+ border: 2px;
+ padding: 1em;
+ margin: 1em;
+ border-radius: 1.25em;
+background-color: rgba(162, 249, 255, 0.226);*/
 }
